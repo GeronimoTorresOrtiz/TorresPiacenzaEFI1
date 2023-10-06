@@ -4,10 +4,10 @@ import DrawClass from './components/DrawClass';
 
 const configMenu = {
   configColor: {
-  background:'#f4f5fa', // Color de Fondo General de la botonera
-  itemBackground: '#d0d0d0',// Color de Fondo de los subMenús
-  itemColor:'#666', // Color del texto de cada item del menú
-  itemActive:'#a8a8a8', // Color cuando hace click y se abre un submenú
+  background:'#f4f5fa', 
+  itemBackground: '#d0d0d0',
+  itemColor:'#666', 
+  itemActive:'#a8a8a8', 
   },
   idFirstNivel : 150,
   menuItems : [
@@ -22,7 +22,7 @@ const configMenu = {
   {name:'something else here', isFolder:false, id:56, idPadre:5},
   {name:'ultimate', isFolder:false, id:59, idPadre:56},  
 ],
-  } // end
+  } 
 
 
 const CLASS_UML = {
@@ -39,8 +39,8 @@ const CLASS_UML = {
 
 function App() {
   return (
-   <Menu data={configMenu} />
-   //<DrawClass data={CLASS_UML}/>
+   //<Menu data={configMenu} />
+   <DrawClass data={CLASS_UML}/>
    
   );
 }

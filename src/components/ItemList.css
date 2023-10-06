@@ -1,26 +1,5 @@
-/* Estilo para el contenedor de la lista */
 .item-list {
   list-style: none;
-  padding: 1;
   margin: 0;
-  background-color: #ffffff; /* Cambiar el fondo a #333 (negro) */
-}
-
-/* Estilo para el contenedor de sublistas */
-.sublist-container {
-  border-radius: 1px solid #ccc;
-  padding: 5px;
-  background-color: #333; /* Cambiar el fondo a #333 (negro) */
-  color: #ebebeb; /* Cambiar el color del texto a blanco */
-}
-
-/* Estilo para los elementos de las sublistas */
-.sublist-item {
-  margin: 5px;
-}
-
-/* Estilo para los enlaces (hipervínculos) */
-.sublist-item a {
-  color: #ffffff; /* Cambiar el color del texto a blanco */
-  text-decoration: none; /* Quitar la subrayado de los enlaces */
+  background-color: #ffffff; 
 }
